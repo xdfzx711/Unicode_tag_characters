@@ -229,6 +229,15 @@ An advanced feature to intelligently pad responses with zero-width characters, m
 * Recommended fill ratio: ≤ 0.98
 * Can be used together with obfuscation, but context filling has priority
 
+
+## Assumption
+An attacker deployed a Modular Capability Provider (MCP) service disguised as a high-quality translation module, claiming it could significantly enhance the translation performance of Agent systems. This deceptive promotion lured users into integrating the service into their own agent architectures. However, the MCP service had a critical design flaw in its backend: it injected a large number of invisible Unicode zero-width characters into the outputs returned by external tools.
+
+When multiple users concurrently invoked this service in the same server environment for testing, system resources were rapidly exhausted, triggering a Denial-of-Service (DoS) attack that severely degraded or even crashed the entire Agent system.
+
+## Experiment
+We have tested qwen3:32b on ollama ,with concurrent mcp-servers. 
+
 ## Contribution Guide
 
 Contributions are welcome via Issues and Pull Requests!
