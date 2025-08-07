@@ -64,8 +64,8 @@ Generated 4 variants:
 
 ## Experiment
 
-We have tested Deepseek-r1,Moonshot-Kimi-K2-Instruct,Qwen3-235b-a22b,Qwen-max-latest on Qwen-Agent(https://github.com/QwenLM/Qwen-Agent)
-and claude-sonnet-4 on claude desktop with microsoft/playwright-mcp(https://github.com/microsoft/playwright-mcp)
+We have tested Deepseek-r1,Moonshot-Kimi-K2-Instruct,Qwen3-235b-a22b,Qwen-max-latest on [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent)
+and claude-sonnet-4 on claude desktop with [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
 
 ## License
 
